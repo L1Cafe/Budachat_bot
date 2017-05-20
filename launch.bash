@@ -10,4 +10,4 @@ export telegramChatId="<YOUR GROUP ID HERE>"
 DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
 cd $DIR
 
-`which python3` budachat/bot.py
+`which python3.6` budachat/bot.py
