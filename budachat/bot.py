@@ -8,6 +8,7 @@ logging.basicConfig(format='%(asctime)s - %(name)s - %(levelname)s - %(message)s
 updater = telegram.ext.Updater(token=os.environ["telegramToken"])
 dispatcher = updater.dispatcher
 
+
 # BEGIN DEVELOPMENT FUNCTIONS
 
 
